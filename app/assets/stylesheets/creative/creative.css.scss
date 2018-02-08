@@ -511,30 +511,52 @@ body {
 
 .shop_box1 {
     min-height: 267.97px;
-         border: 2px solid #ffffff;
-     border-radius: 111px 49px 50px 50px;
-     -moz-border-radius: 111px 49px 50px 50px;
-     -webkit-border-radius: 111px 49px 50px 50px;
      background-color: #648F30;
 }
 .shop_box2 {
     min-height: 267.97px;
-border-radius: 54px 54px 54px 54px;
--moz-border-radius: 54px 54px 54px 54px;
--webkit-border-radius: 54px 54px 54px 54px;
-border: 0px solid #000000;
      background-color: #648F30;
 }
 .shop_box3 {
     min-height: 267.97px;
-         border: 2px solid #ffffff;
-     border-radius: 50px 111px 50px 50px;
-     -moz-border-radius: 50px 111px 50px 50px;
-     -webkit-border-radius: 50px 111px 50px 50px;
      background-color: #648F30;
 }
 
 .shop_inner{
-    padding-top: 30%;
+    padding-top: 20%;
     color: white;
+}
+
+.shop_btn {
+    border-color: #ed431f;
+    color: #648F30;
+    background-color: white;
+}
+
+.shop_btn:hover{
+    border-color: #648F30;
+    color: #fff;
+    background-color: #466521;
+}
+.shop_im {
+    min-height: 83px;
+}
+.shop_donate {
+    color: white;
+    font-size: 24px;
+    padding-left: 30%;
+    padding-right: 30%;
+    background-color: #6A7416;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+
+.shop_donate:hover {
+        color: white;
+    font-size: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #6A7416;
+    padding-top: 30px;
+    padding-bottom:30px;
 }

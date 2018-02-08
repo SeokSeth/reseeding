@@ -6,33 +6,35 @@
 		<div class="col-md-4 center">
 			<div class="shop_box1">
 				<div class="shop_inner">
-					<i class="fa fa-tree fa-5x"></i><br><br>
+					<i class="fa fa-tree fa-5x shop_im"></i><br>
 					<p>One Tree</p>
+					<%= link_to "Donate", root_path,{class:"btn btn-primary btn-xl page-scroll shop_btn"} %>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-4 center">
 			<div class="shop_box2">
 				<div class="shop_inner">
-				<i class="fa fa-tree fa-5x"></i><br><br>
+				<i class="glyphicon glyphicon-tree-conifer fa-5x shop_im"></i><br>
 				<p>Some Trees</p>
+				<%= link_to "Donate",root_path,{class:"btn btn-primary btn-xl page-scroll shop_btn"} %>
 			</div>
 			</div>
 		</div>
 		<div class="col-md-4 center">
 			<div class="shop_box3">
 				<div class="shop_inner">
-				<i class="fa fa-tree fa-5x"></i><br><br>
+				<i class="glyphicon glyphicon-tree-deciduous fa-5x shop_im"></i><br>
 				<p>Dude, thats a forrest!</p>
+				<%= link_to "Donate",root_path,{class:"btn btn-primary btn-xl page-scroll shop_btn"} %>
 			</div>
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-md-4">
-		</div>
-		<div class="col-md-4 center">
-			<h3>Donate Other!</h3>
-		</div>
+	<br>
+	<br>
+	<br>
+	<div class="donate center">
+			<%= link_to "Donate $$$", root_path, class:"shop_donate"%>
 	</div>
 </div>
