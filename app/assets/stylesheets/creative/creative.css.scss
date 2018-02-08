@@ -178,7 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: asset-data-url("creative/header.jpg");
+    background-image: asset-data-url("creative/BG3.jpg");
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -400,8 +400,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
     border-color: #ed431f;
-    color: #fff;
-    background-color: #ee4b28;
+    color: #648F30;
+    background-color: white;
 }
 
 .btn-primary:active,
@@ -481,4 +481,60 @@ body {
 
 .green_bg{
     background-color:#648F30;
+}
+
+.shop_header{
+    height: 20em;
+    min-width: 100%;
+    background-color: #648F30;
+}
+
+.shop_title {
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 15%;
+}
+
+.shop_display {
+    padding-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.shop_icon {
+    font-size: 72px;
+}
+
+.center{
+    text-align: center;
+}
+
+.shop_box1 {
+    min-height: 267.97px;
+         border: 2px solid #ffffff;
+     border-radius: 111px 49px 50px 50px;
+     -moz-border-radius: 111px 49px 50px 50px;
+     -webkit-border-radius: 111px 49px 50px 50px;
+     background-color: #648F30;
+}
+.shop_box2 {
+    min-height: 267.97px;
+border-radius: 54px 54px 54px 54px;
+-moz-border-radius: 54px 54px 54px 54px;
+-webkit-border-radius: 54px 54px 54px 54px;
+border: 0px solid #000000;
+     background-color: #648F30;
+}
+.shop_box3 {
+    min-height: 267.97px;
+         border: 2px solid #ffffff;
+     border-radius: 50px 111px 50px 50px;
+     -moz-border-radius: 50px 111px 50px 50px;
+     -webkit-border-radius: 50px 111px 50px 50px;
+     background-color: #648F30;
+}
+
+.shop_inner{
+    padding-top: 30%;
+    color: white;
 }
