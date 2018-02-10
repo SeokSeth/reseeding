@@ -79,7 +79,7 @@ aside {
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
+    background-color: #274601;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -497,8 +497,9 @@ body {
 
 .shop_display {
     padding-top: 5%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 100%;
 }
 
 .shop_icon {
@@ -509,54 +510,98 @@ body {
     text-align: center;
 }
 
-.shop_box1 {
-    min-height: 267.97px;
-     background-color: #648F30;
-}
-.shop_box2 {
-    min-height: 267.97px;
-     background-color: #648F30;
-}
-.shop_box3 {
-    min-height: 267.97px;
-     background-color: #648F30;
+.shop_box {
+    min-height: 290px;
+     background-color: white;
 }
 
 .shop_inner{
     padding-top: 20%;
-    color: white;
+    color: #648F30;
 }
 
 .shop_btn {
     border-color: #ed431f;
-    color: #648F30;
-    background-color: white;
+    color: #fff;
+    background-color: #648F30;
 }
 
 .shop_btn:hover{
-    border-color: #648F30;
+    border-color: #fff;
     color: #fff;
     background-color: #466521;
 }
 .shop_im {
     min-height: 83px;
+
 }
 .shop_donate {
-    color: white;
+    color: #648F30;
     font-size: 24px;
     padding-left: 30%;
     padding-right: 30%;
-    background-color: #6A7416;
+    background-color: #fff;
     padding-top: 30px;
     padding-bottom:30px;
 }
 
 .shop_donate:hover {
-        color: white;
+        color: #648F30;
     font-size: 24px;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #6A7416;
+    background-color: #fff;
     padding-top: 30px;
     padding-bottom:30px;
+}
+
+.shop_text{
+    color:white;
+}
+#custom-bootstrap-menu{
+    margin-bottom:0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: #436A13;
+}
+#custom-bootstrap-menu.navbar-default {
+    text-transform: uppercase;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color:#436A13;
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    float: right !important;
+    margin-right: -15px;
+    color: #436A13;
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: #436A13;
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: #436A13;
+    background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
 }
